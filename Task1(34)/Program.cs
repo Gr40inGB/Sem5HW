@@ -28,6 +28,7 @@ int CheckByTwo(int[] ArrayForCheck)
 
 void main()
 {
+    Console.Clear();
     int randomSize = new Random().Next(6, 30);
     int[] OurArray = GetFilledArray(randomSize, 100, 999);
     System.Console.WriteLine($"Сгенерирован массив из {randomSize} значений:\n{String.Join(" ", OurArray)}");
